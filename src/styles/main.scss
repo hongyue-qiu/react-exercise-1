@@ -13,6 +13,8 @@ body {
 
 h1 {
   font-size: 2.4em;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -20,8 +22,15 @@ h2 {
 }
 
 h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: $primary-color;
   font-size: 1.8em;
+}
+
+h4,span {
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 p {
@@ -31,6 +40,7 @@ p {
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
 }
@@ -39,4 +49,28 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+img {
+  border-radius: 50%;
+  margin-left:42%;
+  width:150px;
+  height: 150px;
+  transform:translateY(-50px);
+}
+.content {
+  float:left;
+  margin-left:50px;
+  width:900px;
+  height:40px;
+  padding-top: 8px;
+  padding-left: 10px;
+  margin-top:-20px;
+  background-color: #ededed;
+}
+.contents{
+  height:70px;
+}
+span{
+  float:left;
+  display: inline;
 }
